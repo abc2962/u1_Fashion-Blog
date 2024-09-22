@@ -41,11 +41,11 @@ Faithfully reproduce the mockup in HTML & CSS.
 1. In the body of your HTML, use [`header`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), [`main`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), and [`footer`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) tags to clearly define the different parts of the page.
 1. Use an `h1` tag for the site title and an `h2` for the subtitle inside the page header.
 1. Use [`nav`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) tags inside the page header to create an accessible navigation. Follow the example in the [W3C Web Accessibility Initiative (WAI) Guidelines](https://www.w3.org/WAI/tips/developing/#provide-meaning-for-non-standard-interactive-elements) to format your navigation:
-   1. Wrap each link in an anchor tag
+   <!-- 1. Wrap each link in an anchor tag
    1. Wrap each anchor tag in a list item
-   1. Wrap all of the list item tags in an unordered list tag
+   1. Wrap all of the list item tags in an unordered list tag -->
 1. Mark up both of the blog posts using the [`article`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) tag.
-1. Use this [W3C WAI Guideline](https://www.w3.org/WAI/tips/developing/#use-mark-up-to-convey-meaning-and-structure) example, to help you structure your blog post content. Follow the pattern! Make sure there is a `p` tag that contains some lorem ipsum text (Remember you can create this with Emmet by typing `p>lorem` and pressing tab)!
+<!-- 1. Use this [W3C WAI Guideline](https://www.w3.org/WAI/tips/developing/#use-mark-up-to-convey-meaning-and-structure) example, to help you structure your blog post content. Follow the pattern! Make sure there is a `p` tag that contains some lorem ipsum text (Remember you can create this with Emmet by typing `p>lorem` and pressing tab)! -->
 1. Inside the page footer, use the same technique you used earlier to create a semantic and accessible navigation, using a wrapping `nav` tag, unordered list and the aria attributes.
 1. Add a copyright in the `footer`. For the &copy; symbol, use an [html entity](https://www.w3schools.com/html/html_entities.asp).
 
@@ -53,7 +53,7 @@ _Make sure to add and commit your changes when you've got the html done!_
 
 ### Style Your Page
 
-1. Use a [`border`](https://www.w3schools.com/css/css_border.asp) only on the left side of the page's `html` element. It should have a width of `5px` and a color of `lightgray`.
+<!-- 1. Use a [`border`](https://www.w3schools.com/css/css_border.asp) only on the left side of the page's `html` element. It should have a width of `5px` and a color of `lightgray`. -->
 1. Set the `body` element's `min-height` to be at least 100% of the [viewport height](https://alligator.io/css/viewport-units/). Also, use the `font-family` property to set the entire page to use `sans-serif` fonts.
 1. Give the `body` a `max-width` of `1000px` and center it on the page with the margin auto technique.
 1. The border is too close to our text and we've got an issue with [margin-collapse](https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0) at the top of the page! Add `padding` to the `header`, `main` and `footer` elements of `1rem` on the top and bottom and `2rem` on the left and right to fix these issues.
