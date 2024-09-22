@@ -46,16 +46,23 @@ img {
 }
 .continue {
     text-align: end;
-    margin-right: 100px;
+    margin-right: 300px;
     color: tomato;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
 }
 .first-headline {
     color: tomato;
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 5px;
     margin-top: 20px;
-    font-weight: 300;
+    font-weight: 10;
+}
+.second-headline {
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .left-margin-text {
     text-shadow: none;
@@ -63,26 +70,36 @@ img {
 .date {
     color: lightgray;
     font-size: 36px;
+    #second-date {
+        margin-bottom: 200;
+    }
 }
 #last-bar {
     color: tomato;
+    font-size: 22px;
     
 }
 ul {
     padding: 0;
 }
 hr {
-    width: 80%;
+    width: 72%;
     color: lightgray;
     margin-top: 40px;
+    margin-left: 0px;
 }
 .sub-head::first-letter {
     initial-letter: 4;
-    padding: 20px;  
-}
+    padding: 20px;
+    }
 .preview {
-    display: block;
-    
+    display: block;    
     
 }
-
+p {
+    font-size: 22px;
+    width: 72%;
+}
+h6 {
+    font-size: 20px;
+}
