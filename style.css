@@ -76,4 +76,13 @@ hr {
     color: lightgray;
     margin-top: 40px;
 }
+.sub-head::first-letter {
+    initial-letter: 4;
+    padding: 20px;  
+}
+.preview {
+    display: block;
+    
+    
+}
 
